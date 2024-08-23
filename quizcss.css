@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('quizbg.png'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text */
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 10px 0;
+}
+
+.options li button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent; /* Make buttons transparent */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.options li button.correct {
+    background-color: rgba(0, 255, 0, 0.5); /* Green background for correct answer */
+    border-color: green;
+}
+
+.options li button.wrong {
+    background-color: rgba(255, 0, 0, 0.5); /* Red background for wrong answer */
+    border-color: red;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
