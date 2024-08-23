@@ -1,4 +1,4 @@
-# General Knowledge Quiz
+# General Knowledge Quiz Webpage 
 This project is a dynamic General Knowledge Quiz built with HTML, CSS, and JavaScript. The quiz features multiple-choice questions on various topics, offering a smooth and interactive user experience.
 
 ## HTML
